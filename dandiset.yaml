@@ -3,8 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
-about:
-- {}
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -109,9 +108,18 @@ ethicsApproval: []
 id: DANDI:002028/draft
 identifier: DANDI:002028
 keywords:
-- ateral geniculate nucleus; LGN; thalamus; vision; extracellular electrophysiology;
-  natural scenes; white noise; contrast adaptation; spike timing; neural coding; information
-  theory; encoding models
+- lateral geniculate nucleus
+- LGN
+- thalamus
+- vision
+- electrophysiology
+- natural scenes
+- white noise
+- contrast adaptation
+- spike timing
+- neural coding
+- information theory
+- encoding models
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
@@ -119,7 +127,42 @@ manifestLocation:
 name: 'Extracellular recordings from the anesthetized lateral geniculate nucleus:
   natural and noise stimuli across contrast levels'
 relatedResource:
-- {}
+- identifier: Lesica 2007
+  name: Adaptation to Stimulus Contrast and Correlations during Natural Visual Stimulation
+  relation: dcite:IsDescribedBy
+  repository: Neuron Journal Website
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.1016/j.neuron.2007.07.013
+- identifier: Butts 2007
+  name: Temporal precision in the neural code and the timescales of natural vision
+  relation: dcite:IsDescribedBy
+  repository: Nature Journal Website
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.1038/nature06105
+- identifier: Butts 2010
+  name: The Episodic Nature of Spike Trains in the Early Visual Pathway
+  relation: dcite:IsDescribedBy
+  repository: Journal of Neurophysiology Website
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.1152/jn.00078.2010
+- identifier: Butts 2011
+  name: emporal Precision in the Visual Pathway through the Interplay of Excitation
+    and Stimulus-Driven Suppression
+  relation: dcite:IsDescribedBy
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.1523/JNEUROSCI.0434-11.2011
+- identifier: Weng 2005
+  name: Receptive Field Size and Response Latency Are Correlated Within the Cat Visual
+    Thalamus
+  relation: dcite:IsDocumentedBy
+  repository: Journal of Neurophysiology Website
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.1152/jn.00847.2004
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
