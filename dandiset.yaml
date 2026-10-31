@@ -3,10 +3,14 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
-about: []
+about:
+- {}
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: The original recordings were supported by National Eye Institute
+  grant EY-05253 and the Research Foundation of the State University of New York.
+  Producing the public dataset was supported by NSF IIS-2113197.
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
@@ -104,6 +108,10 @@ description: Recordings in anesthetized LGN involving long stimulus sequences an
 ethicsApproval: []
 id: DANDI:002028/draft
 identifier: DANDI:002028
+keywords:
+- ateral geniculate nucleus; LGN; thalamus; vision; extracellular electrophysiology;
+  natural scenes; white noise; contrast adaptation; spike timing; neural coding; information
+  theory; encoding models
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
@@ -115,6 +123,10 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
+studyTarget:
+- To understand how the neurons in the lateral geniculate nucleus (LGN) encode natural
+  and artificial visual stimuli of different contrast, and to provide data for encoding
+  models and information-theoretic analyses.
 url: https://dandiarchive.org/dandiset/002028/draft
 version: draft
 wasGeneratedBy: []
