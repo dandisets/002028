@@ -138,7 +138,7 @@ description: 'Recordings from the lateral geniculate nucleus (LGN) during the pr
   of a range of visual stimuli: natural movies, white-noise patterns and full-field
   flicker, each presented at two or more contrast levels, both as long non-repeating
   sequences and as many repetitions of short clips. This combination of stimulus types,
-  contrasts and repeated presentations makes the dataset well suited to both information-theoretic
+  contrasts and repeated presentations makes the dataset useful for both information-theoretic
   analyses and statistical modeling.  This dataset supported four published studies,
   which examined the timescales and temporal precision of spike trains during natural
   vision, the organization of LGN spike trains into episodic spiking events, adaptation
@@ -209,10 +209,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-studyTarget:
-- To understand how the neurons in the lateral geniculate nucleus (LGN) encode natural
-  and artificial visual stimuli of different contrast, and to provide data for encoding
-  models and information-theoretic analyses.
 url: https://dandiarchive.org/dandiset/002028/draft
 version: draft
 wasGeneratedBy: []
