@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -10,9 +11,9 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: 'Butts, Daniel (2026) Extracellular recordings from the anesthetized lateral
-  geniculate nucleus: natural and noise stimuli across contrast levels (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002028/draft'
+citation: 'Butts, Daniel; Lesica, Nicholas A (2026) Extracellular recordings from
+  the anesthetized lateral geniculate nucleus: natural and noise stimuli across contrast
+  levels (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002028/draft'
 contributor:
 - affiliation: []
   email: dab@umd.edu
@@ -21,9 +22,25 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02jx3x895
+    name: University College London
+    schemaKey: Affiliation
+  awardNumber: NAL
+  email: n.lesica@ucl.ac.uk
+  identifier: 0000-0001-5238-4462
+  includeInCitation: true
+  name: Lesica, Nicholas A
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:Researcher
+  schemaKey: Person
+  url: https://www.lesicalab.com
 dateCreated: '2026-10-14T14:56:20.355765+00:00'
 description: Recordings in anesthetized LGN involving long stimulus sequences and
   repeats
+ethicsApproval: []
 id: DANDI:002028/draft
 identifier: DANDI:002028
 license:
@@ -32,8 +49,10 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002028/versions/draft/assets/
 name: 'Extracellular recordings from the anesthetized lateral geniculate nucleus:
   natural and noise stimuli across contrast levels'
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 url: https://dandiarchive.org/dandiset/002028/draft
 version: draft
+wasGeneratedBy: []
