@@ -11,18 +11,24 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: 'Butts, Daniel; Lesica, Nicholas A; Stanley, Garrett B; Jin, Jianzhong;
-  Alonso, Jose-Manuel (2026) Extracellular recordings from the anesthetized lateral
-  geniculate nucleus: natural and noise stimuli across contrast levels (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002028/draft'
+citation: 'Butts, Daniel A; Lesica, Nicholas A; Yeh, Chun-I; Jin, Jianzhong; Stanley,
+  Garrett B; Alonso, Jose-Manuel (2026) Extracellular recordings from the anesthetized
+  lateral geniculate nucleus: natural and noise stimuli across contrast levels (Version
+  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002028/draft'
 contributor:
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/047s2c258
+    name: University of Maryland, College Park
+    schemaKey: Affiliation
+  awardNumber: DAB
   email: dab@umd.edu
+  identifier: 0000-0002-0158-5317
   includeInCitation: true
-  name: Butts, Daniel
+  name: Butts, Daniel A
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+  url: http://neurotheory.umd.edu
 - affiliation:
   - identifier: https://ror.org/02jx3x895
     name: University College London
@@ -39,6 +45,31 @@ contributor:
   schemaKey: Person
   url: https://www.lesicalab.com
 - affiliation:
+  - identifier: https://ror.org/05bqach95
+    name: National Taiwan University
+    schemaKey: Affiliation
+  awardNumber: CIY
+  email: ciyeh@ntu.edu.tw
+  identifier: 0000-0002-2375-0723
+  includeInCitation: true
+  name: Yeh, Chun-I
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02v9m6h26
+    name: SUNY College of Optometry
+    schemaKey: Affiliation
+  awardNumber: JJ
+  email: jjin@mail.sunyopt.edu
+  includeInCitation: true
+  name: Jin, Jianzhong
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- affiliation:
   - identifier: https://ror.org/01zkghx44
     name: Georgia University of Technology
     schemaKey: Affiliation
@@ -53,18 +84,6 @@ contributor:
   - dcite:Researcher
   schemaKey: Person
   url: https://stanley.gatech.edu
-- affiliation:
-  - identifier: https://ror.org/02v9m6h26
-    name: SUNY College of Optometry
-    schemaKey: Affiliation
-  awardNumber: JJ
-  email: jjin@mail.sunyopt.edu
-  includeInCitation: true
-  name: Jin, Jianzhong
-  roleName:
-  - dcite:Author
-  - dcite:Researcher
-  schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/02v9m6h26
     name: SUNY College of Optometry
