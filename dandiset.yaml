@@ -101,9 +101,52 @@ contributor:
   - dcite:Conceptualization
   - dcite:Researcher
   schemaKey: Person
+- awardNumber: EY005253
+  contactPoint:
+  - schemaKey: ContactPoint
+    url: https://nei.nih.gov/
+  - schemaKey: ContactPoint
+  identifier: https://ror.org/03wkg3b53
+  name: National Eye Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://nei.nih.gov/
+- awardNumber: IIS-2113197, IIS-0904630
+  contactPoint:
+  - schemaKey: ContactPoint
+    url: http://www.nsf.gov
+  - schemaKey: ContactPoint
+  identifier: https://ror.org/021nxhr62
+  name: National Science Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.nsf.gov
+- contactPoint:
+  - schemaKey: ContactPoint
+    url: http://www.rfsuny.org/
+  - schemaKey: ContactPoint
+  identifier: https://ror.org/01sfc5174
+  name: Research Foundation for the State University of New York
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.rfsuny.org/
 dateCreated: '2026-10-14T14:56:20.355765+00:00'
-description: Recordings in anesthetized LGN involving long stimulus sequences and
-  repeats
+description: 'Recordings from the lateral geniculate nucleus (LGN) during the presentation
+  of a range of visual stimuli: natural movies, white-noise patterns and full-field
+  flicker, each presented at two or more contrast levels, both as long non-repeating
+  sequences and as many repetitions of short clips. This combination of stimulus types,
+  contrasts and repeated presentations makes the dataset well suited to both information-theoretic
+  analyses and statistical modeling.  This dataset supported four published studies,
+  which examined the timescales and temporal precision of spike trains during natural
+  vision, the organization of LGN spike trains into episodic spiking events, adaptation
+  to stimulus contrast and spatiotemporal statistics, and how excitation and suppression
+  shape spike timing in models of LGN processing (Lesica et al. 2007; Butts et al.
+  2007, 2010, 2011). Repeated presentations allow response reliability and information
+  rates to be measured directly, while long unique sequences allow receptive fields
+  and encoding models to be fit and tested on held-out data.'
 ethicsApproval: []
 id: DANDI:002028/draft
 identifier: DANDI:002028
