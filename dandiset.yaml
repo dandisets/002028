@@ -11,9 +11,29 @@ acknowledgement: The original recordings were supported by National Eye Institut
   grant EY-05253 and the Research Foundation of the State University of New York.
   Producing the public dataset was supported by NSF IIS-2113197.
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 290472043
+  numberOfFiles: 26
+  numberOfSubjects: 4
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9685
+    name: Felis catus - Cat
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Units
+  - ElectrodeGroup
 citation: 'Butts, Daniel A; Lesica, Nicholas A; Yeh, Chun-I; Jin, Jianzhong; Stanley,
   Garrett B; Alonso, Jose-Manuel (2026) Extracellular recordings from the anesthetized
   lateral geniculate nucleus: natural and noise stimuli across contrast levels (Version
