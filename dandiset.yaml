@@ -18,21 +18,21 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 296007587
-  numberOfFiles: 27
-  numberOfSubjects: 4
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 22815104
+  numberOfFiles: 4
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9685
     name: Felis catus - Cat
     schemaKey: SpeciesType
   variableMeasured:
-  - Units
   - ElectrodeGroup
+  - Units
 citation: 'Butts, Daniel A; Lesica, Nicholas A; Yeh, Chun-I; Jin, Jianzhong; Stanley,
   Garrett B; Alonso, Jose-Manuel (2026) Extracellular recordings from the anesthetized
   lateral geniculate nucleus: natural and noise stimuli across contrast levels (Version
