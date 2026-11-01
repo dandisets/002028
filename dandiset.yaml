@@ -22,8 +22,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 22815104
-  numberOfFiles: 4
+  numberOfBytes: 43488024
+  numberOfFiles: 8
   numberOfSubjects: 1
   schemaKey: AssetsSummary
   species:
@@ -31,8 +31,8 @@ assetsSummary:
     name: Felis catus - Cat
     schemaKey: SpeciesType
   variableMeasured:
-  - ElectrodeGroup
   - Units
+  - ElectrodeGroup
 citation: 'Butts, Daniel A; Lesica, Nicholas A; Yeh, Chun-I; Jin, Jianzhong; Stanley,
   Garrett B; Alonso, Jose-Manuel (2026) Extracellular recordings from the anesthetized
   lateral geniculate nucleus: natural and noise stimuli across contrast levels (Version
