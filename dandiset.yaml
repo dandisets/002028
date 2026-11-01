@@ -232,6 +232,13 @@ relatedResource:
   resourceType: dcite:JournalArticle
   schemaKey: Resource
   url: https://doi.org/10.1152/jn.00847.2004
+- identifier: Data processing code
+  name: Associated python code for processing the dataset
+  relation: dcite:IsDocumentedBy
+  repository: LGNcoding @ NeuroTheoryUMD
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/NeuroTheoryUMD/LGNcoding.git
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
