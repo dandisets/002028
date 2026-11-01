@@ -167,12 +167,11 @@ description: "Recordings from the lateral geniculate nucleus (LGN) during the pr
   rates to be measured directly, while long unique sequences allow receptive fields
   and encoding models to be fit and tested on held-out data.<p>&nbsp;</p>'**Organization
   notes.** The composition of each experiment (and in some cases each penetration)
-  was different, and we include a searchable table to locate desired conditions across
-  the dataset. Also, because all stimuli were shared across relevant penetrations,
-  a single stimulus library is included in Expt1 and must be included with all specific
-  penetration data. We have separately made python tools and a notebook to demonstrate
-  how to search for and load different types of data in the DataProcessing directory
-  at https://github.com/NeuroTheoryUMD/LGNcoding.git."
+  is variable, and we include a searchable table to locate desired conditions across
+  the dataset. We use a single shared stimulus library (included in Expt1) and must
+  be used with all specific penetration data. Python tools and a juptyer notebook
+  to demonstrate how to search for and load different types of data is available in
+  the DataProcessing directory at https://github.com/NeuroTheoryUMD/LGNcoding.git."
 ethicsApproval: []
 id: DANDI:002028/draft
 identifier: DANDI:002028
