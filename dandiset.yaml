@@ -3,13 +3,12 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
-about: []
+about:
+- name: Lateral geniculate nucleus
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
-acknowledgement: The original recordings were supported by National Eye Institute
-  grant EY-05253 and the Research Foundation of the State University of New York.
-  Producing the public dataset was supported by NSF IIS-2113197.
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -23,8 +22,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 290472043
-  numberOfFiles: 26
+  numberOfBytes: 324015483
+  numberOfFiles: 33
   numberOfSubjects: 4
   schemaKey: AssetsSummary
   species:
