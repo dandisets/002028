@@ -36,7 +36,7 @@ assetsSummary:
 citation: 'Butts, Daniel A; Lesica, Nicholas A; Yeh, Chun-I; Jin, Jianzhong; Stanley,
   Garrett B; Alonso, Jose-Manuel (2026) Extracellular recordings from the anesthetized
   lateral geniculate nucleus: natural and noise stimuli across contrast levels (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002028/draft'
+  0.261102.1631) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.002028/0.261102.1631'
 contributor:
 - affiliation:
   - identifier: https://ror.org/047s2c258
@@ -154,6 +154,7 @@ contributor:
   schemaKey: Organization
   url: http://www.rfsuny.org/
 dateCreated: '2026-10-14T14:56:20.355765+00:00'
+datePublished: '2026-11-02T16:31:20.368487+00:00'
 description: "Recordings from the lateral geniculate nucleus (LGN) during the presentation
   of a range of visual stimuli: natural movies, white-noise patterns and full-field
   flicker, each presented at two or more contrast levels, both as long non-repeating
@@ -173,8 +174,9 @@ description: "Recordings from the lateral geniculate nucleus (LGN) during the pr
   be used with all specific penetration data. Python tools and a juptyer notebook
   to demonstrate how to search for and load different types of data is available in
   the DataProcessing directory at https://github.com/NeuroTheoryUMD/LGNcoding.git."
+doi: 10.48324/dandi.002028/0.261102.1631
 ethicsApproval: []
-id: DANDI:002028/draft
+id: DANDI:002028/0.261102.1631
 identifier: DANDI:002028
 keywords:
 - lateral geniculate nucleus
@@ -192,9 +194,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/002028/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/002028/0.261102.1631/assets.yaml
 name: 'Extracellular recordings from the anesthetized lateral geniculate nucleus:
   natural and noise stimuli across contrast levels'
+publishedBy:
+  endDate: '2026-11-02T16:31:20.368487+00:00'
+  id: urn:uuid:c1a1246a-bccb-4002-8598-ac49ee45f0a6
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-11-02T16:31:20.368487+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:46f41384-a8c2-41d0-9e70-87b28e590a94
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: Lesica et al, Neuron 2007
   name: Adaptation to Stimulus Contrast and Correlations during Natural Visual Stimulation
@@ -239,9 +253,11 @@ relatedResource:
   resourceType: dcite:Software
   schemaKey: Resource
   url: https://github.com/NeuroTheoryUMD/LGNcoding.git
+releaseNotes: 'Initial dataset release: please see previous cited publications for
+  detailed references, and linked code in github'
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/002028/draft
-version: draft
+url: https://dandiarchive.org/dandiset/002028/0.261102.1631
+version: 0.261102.1631
 wasGeneratedBy: []
